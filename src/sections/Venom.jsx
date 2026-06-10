@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import venomImg from "../assets/images/venom.jpeg";
 
 export default function Venom() {
     return (
@@ -15,11 +16,7 @@ export default function Venom() {
                 }}
             >
                 <div className="venom-image-container">
-                    <img
-                        src="/src/assets/images/venom.jpeg"
-                        alt="Venom"
-                        className="venom-image"
-                    />
+                    <img alt="Venom" className="venom-image" src={venomImg} />
                 </div>
 
                 <div className="venom-content">
